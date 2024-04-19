@@ -1,5 +1,5 @@
 {
-  "name": "@anton2mihail/react-native-pincode",
+  "name": "@antonmihail/react-native-pincode",
   "version": "0.0.1",
   "description": "Pin Code component for React Native",
   "scripts": {
@@ -9,7 +9,6 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/anton2mihail/react-native-pin-code.git",
   "author": "Anton Lachmaniucu <antonmihail@gmail.com> https://github.com/anton2mihail",
   "license": "MIT",
   "devDependencies": {
