@@ -26,7 +26,6 @@ const ResetLayout = ({ styles, textOptions, options, onReset, onCancel }: {
                 </Pressable>
             </>}
             {status == PinCodeT.Statuses.ResetPrompted && <>
-                <Text style={[DEFAULT.Styles.reset?.confirmText]}>{textOptions?.confirm}</Text>
                 <Pressable onPress={onReset} style={state => ({ opacity: state.pressed ? 0.6 : 1 })}>
                     <Text style={[DEFAULT.Styles.reset?.resetButton, styles?.resetButton]}>{textOptions?.confirmButton}</Text>
                 </Pressable>
