@@ -159,7 +159,6 @@ Same as the `enter` mode styles, but without the `buttonTextDisabled`
 | subTitle           | Style of the sub title                                                          | false    | TextStyle |
 | content            | Style of the container which wraps the `lock` text/icon and the `CountDown`     | false    | ViewStyle |
 | resetButton        | Styles of the reset button                                                      | false    | ViewStyle |
-| confirmText        | Style of the confirm message                                                    | false    | TextStyle |
 | footer             | Style of the footer container                                                   | false    | ViewStyle |
 | footerText         | Style the footer text                                                           | false    | TextStyle |
 
@@ -215,9 +214,6 @@ const customStyles:PinCodeT.Styles = {
   locked: {
     countdown: { borderColor: 'black' },
     countdownText: { color: 'black' },
-  },
-  reset: {
-    confirmText: { color: 'red' },
   }
 }
 
